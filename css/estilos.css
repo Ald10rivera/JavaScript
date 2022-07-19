@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(157, 207, 216);
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.formulario{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+#cotizador{
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: medium;
+}
+#valor{
+    border-radius: 50px;
+    padding: 10px;
+}

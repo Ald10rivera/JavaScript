@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hola mundox</h1>
+    <h1>Convertidor de Monedas</h1>
+    <p>selecciona la moneda</p>
+    <form class="formulario">
+        <input type="radio" id="uno">Dolar
+        <input type="radio" id="dos">Peso Chileno
+        <p>Ingrese monto en pesos Argentinos:</p>
+        <input type="number" id="valor" min="1" max="100000">
+        <input type="button" id="cotizador" value="convertir" onclick="convertir()">
+    </form>
     <script src="./JS/main.js"></script>
 </body>
 </html>

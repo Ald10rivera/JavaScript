@@ -1,11 +1,17 @@
-
-let sumador = 0
-for ( let i = 1; i <= 1000 ; i++) {
-    sumador = sumador + i
-    console.log( 'contador: ' + i + ' - sumador: ' + sumador);
-    if ( sumador >= 1000 ) {
-        console.log('El valor mínimo es: ' + i);
-        break;
+function convertir(){
+    let pesoarg = parseInt(document.getElementById("valor").value);
+    let resultado = 0;
+    let dolar = 130;
+    let chileno = 0.14
+    if(document.getElementById("uno").checked){
+        resultado = pesoarg * dolar;
+        alert("La conversion de pesos ARG a dolar es: $" + resultado);
+    }
+    if(document.getElementById("dos").checked){
+        resultado = pesoarg * chileno;
+        alert("La conversion de pesos ARG a CHIL es: $" + resultado);
+    }
+    else{
+        alert("No te olvides de completar todos los datos")
     }
 }
-console.log( sumador );
