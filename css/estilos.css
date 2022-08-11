@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*estilos el menu*/
+nav{
+    background-color: aqua;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+li{
+    color: aliceblue;
+    background-color: #4A34AD;
+    border-radius: 25px;
+    padding: 5px;
+}
+header{
+    display: grid;
+    grid-template-areas: "logo menu menu menu";
+}
+.imageLogo{
+    grid-area: logo;
+    width: 10px;
+}
+.menu{
+    grid-area: menu;
+    width: 100%;
+}
+.logox{
+    width: 250px;
+}
+.producto{
+    width: 300px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 250px;
+}
