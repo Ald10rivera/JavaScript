@@ -145,3 +145,22 @@ const pintarTabla = objetoCarrito => {
     'success'
 )
     }
+
+document.getElementById('botonMas').addEventListener('ckick', mostrarMasEquipos);
+
+function mostrarMasEquipos(){
+    fetch('./data/product.json')
+    .then(function(resp){
+        return resp.json();
+    })
+    .then(function(data){
+        let doms = '';
+        data.forEach(function(equipos){
+            doms += `
+            <h5>${equipos.nombre}</h5>
+            <p>${equipos.precio}</p>`
+            ;
+        })
+        document.getElementById('aplicandoFetch').innerHTML = doms;
+    })
+}

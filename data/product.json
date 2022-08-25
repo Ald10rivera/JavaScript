@@ -1,0 +1,24 @@
+[   {"nombre": "Iphone 11 Pro",
+    "precio": 1200,
+    "descripcion": "El modelo cuenta con el nuevo chip Apple A13 Bionic y un nuevo sistema de cámara dual ultra ancho.1 Mientras que el iPhone 11 Pro presenta un nuevo cargador rápido de 18 vatios, el iPhone 11 presenta el mismo cargador de 5 vatios encontrado en iPhones anteriores.",
+    "srcImg": "./img/iphone.jpg"
+    },
+    {
+        "nombre": "Samsung S20 Plus",
+        "precio": 1750,
+        "descripcion": "Un salto épico para la tecnología de smartphones. Un chip más rápido que nunca en Galaxy. El chip de 4 nm funciona con su poder de clase mundial en casi todos los aspectos de tu smartphone, fotos increíblemente claras de día y de noche y una experiencia de juego móvil optimizada para conducirte a la victoria.",
+        "srcImg": "./img/samsungs20.jpg"
+    },
+    {
+        "nombre": "Redmi Note 11 Pro",
+        "precio": 980,
+        "descripcion": " El Xiaomi Redmi Note 10 Pro viene a mejorar el muy exitoso Redmi Note 9 Pro, el cual fue uno de los móviles estrellas del 2020 en cuanto a ventas se refiere. Entre sus principales cualidades, destaca un estupendo panel Amoled que hará las delicias de cualquiera y permitirá una correcta visualización incluso en las peores condiciones lumínicas.",
+        "srcImg":"./img/redmi.jpg"
+        },
+        {
+            "nombre": "Moto Edge 30 Plus",
+            "precio": 1100,
+            "descripcion": "Motorola ha desvelado cuál será su apuesta internacional durante 2022: el Motorola Edge 30 Pro. Con la máxima potencia por bandera, y cargado de especificaciones en su interior, el móvil parte bien armado y con un precio que no se hace exagerado para el segmento premium.",
+            "srcImg": "./img/motog30.png"
+        }
+]
