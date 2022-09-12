@@ -3,9 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*estilos el menu*/
 nav{
-    background-color: aqua;
+    background-color: rgba(84, 20, 121, 0.445);
 }
 nav ul {
     list-style-type: none;
@@ -15,7 +16,7 @@ nav ul {
 }
 li{
     color: aliceblue;
-    background-color: #4A34AD;
+    background-color: #604CBA;
     border-radius: 25px;
     padding: 5px;
 }
@@ -81,7 +82,7 @@ h1 {
   }
   th {
     font-size: 1.1rem;
-    background: hsla(210, 60%, 70%, .7);
+    background: #604CBA;
   }
   th, td, tr {
     border: var(--border-table);
@@ -89,7 +90,7 @@ h1 {
     padding: .4rem 0;
   }
   td {
-    background: hsla(210, 40%, 90%, .9);
+    background: rgba(84, 20, 121, 0.445);
     color: black;
   }
   .precio-tabla::before {
@@ -97,11 +98,13 @@ h1 {
     padding-right: 0.4rem;
   }
 .button {
-    margin: 0 .4rem;
+    margin: 0.4rem;
     border: var(--border-table);
-    background: hsla(250, 70%, 50%, .7);
+    background: #604CBA;
     color: white;
     cursor: pointer;
+    border-radius: 2rem;
+    padding: 0.4rem;
 }
 .negrita {
     font-weight: bold;
@@ -117,11 +120,11 @@ h1 {
     height: 300px;
     width: 230px;
     border-radius: 0.35rem;
-    background: #f4f4f4;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
     position: relative;
-    box-shadow:0px 0px 1rem hsla(240, 100%, 90%, 0.3);
+    box-shadow:0px 0px 1rem hsla(240, 100%, 90%, 0.5);
     transition: transform 0.1s;
     overflow: hidden;
     margin: 1rem;
@@ -129,7 +132,7 @@ h1 {
   .cartola:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
-    box-shadow: 0 0 2rem hsla(240, 100%, 90%, 0.5);
+    box-shadow: 0 0 2rem #604CBA;
   }
   /* Imagen */
 .contenedor-img {
@@ -180,7 +183,7 @@ img {
     padding-right: 0.3rem;
   }
   .boton {
-    background: hsla(210, 40%, 70%, .7);
+    background:rgba(84, 20, 121, 0.445) ;
     cursor: pointer;
     border: var(--border);
     font-size: 1rem;
@@ -192,7 +195,7 @@ img {
   }
 .boton:hover {
     color: rgba(255, 255, 255, .8);
-    background: #4A34AD;
+    background:#604CBA ;
     box-shadow: 1px 1px 3px hsl(0, 100%, 0%, 0.25);
 }
 .boton::after {
@@ -237,6 +240,6 @@ footer{
     margin: 25px;
     text-align: center;
     font-size: 1.5rem;
-    background-color: #4A34AD;
+    background-color: #604CBA;
     color: #f4f4f4;
 }
